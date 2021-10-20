@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Cegedim.codility.Listeneres"/>
+  </listeners>
+  <test parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Cegedim.codility.login">
+        <methods>
+          <include name="emptyFields" invocation-numbers="0"/>
+          <include name="closeBrowserWindows"/>
+        </methods>
+      </class> <!-- Cegedim.codility.login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
